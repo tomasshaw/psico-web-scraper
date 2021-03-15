@@ -29,7 +29,7 @@ const getCupos = {
 				baseArray.forEach((item, index) => {
 					if(item > 0){
 						const element = tableItems[index+1].cells
-						const string = ` Quedan${element[6].innerText} vacantes en la comision${element[0].innerText}, los dias${element[1].innerText}, de${element[2].innerText} a${element[3].innerText}, con ${element[5].innerText}.`
+						const string = ` Quedan${element[6].innerText} vacantes en la comision${element[0].innerText}, los dias ${element[1].innerText}, de${element[2].innerText} a${element[3].innerText}, con ${element[5].innerText}.`
 						arrayCuposDisponibles.push(string)
 					}
 				})
